@@ -6,7 +6,7 @@ services:
     build: docker/dev
     working_dir: /application
     ports:
-      - '22000:8000'
+      - '22001:8000'
     volumes:
       - .:/application
     networks:
