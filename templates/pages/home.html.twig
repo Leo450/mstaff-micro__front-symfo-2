@@ -1,0 +1,22 @@
+{# templates/pages/home.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <header>
+        <h1>Symfony Header</h1>
+    </header>
+
+    <div style="text-align: center">
+        <div id="cookie"></div>
+        <button onclick="setCookie()">Set Cookie</button>
+        <button onclick="unsetCookie()">Unset Cookie</button>
+        <button onclick="goToVue()">Go to Vue</button>
+    </div>
+{% endblock %}
+
+{% block javascript %}
+	<script type="application/javascript">
+		const cookie = getCookie()
+		document.getElementById('cookie').innerText = cookie ? 'Token: ' + cookie : 'No cookie'
+	</script>
+{% endblock %}

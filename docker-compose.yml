@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  front-symfo:
+    build: docker/dev
+    working_dir: /application
+    ports:
+      - '22000:8000'
+    volumes:
+      - .:/application
+    networks:
+      - router.docker
+
+networks:
+  router.docker:
+    external: true
