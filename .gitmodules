@@ -1,0 +1,6 @@
+[submodule "src/Repository"]
+	path = src/Repository
+	url = git@github.com:Leo450/mstaff-micro__shared__repositories.git
+[submodule "src/Entity"]
+	path = src/Entity
+	url = git@github.com:Leo450/mstaff-micro__shared__entities.git
