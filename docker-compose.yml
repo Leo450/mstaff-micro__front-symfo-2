@@ -1,7 +1,8 @@
 version: '3.1'
 
 services:
-  front-symfo:
+  dev:
+    container_name: front-symfo-1
     build: docker/dev
     working_dir: /application
     ports:
