@@ -1,8 +1,8 @@
 [submodule "src/Repository"]
 	path = src/Repository
-	url = git@github.com:Leo450/mstaff-micro__shared__repositories.git
+	url = git@github.com:hublo/mstaff-poc-micro__shared__repositories.git
 	branch = main
 [submodule "src/Entity"]
 	path = src/Entity
-	url = git@github.com:Leo450/mstaff-micro__shared__entities.git
+	url = git@github.com:hublo/mstaff-poc-micro__shared__entities.git
 	branch = main
